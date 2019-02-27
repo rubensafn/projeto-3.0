@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	<definition name="common-uplon" template="/WEB-INF/layout/uplon/classic.jsp">
+        <put-attribute name="header" value="/WEB-INF/layout/uplon/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/uplon/footer.jsp" />
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="/resources/uplon/assets/plugins/jquery.steps/demo/css/jquery.steps.css" />
+	 		<add-attribute value="/resources/uplon/assets/plugins/datatables/dataTables.bootstrap4.min.css" />
+	        <add-attribute value="/resources/uplon/assets/plugins/datatables/buttons.bootstrap4.min.css" />
+	        <add-attribute value="/resources/uplon/assets/plugins/datatables/responsive.bootstrap4.min.css" />
+	        <add-attribute value="/resources/uplon/assets/plugins/datatables/select.bootstrap4.min.css" />
+	        <add-attribute value="/resources/uplon/assets/plugins/bootstrap-sweetalert/sweet-alert.css" />
+	        <add-attribute value="/resources/uplon/assets/plugins/timepicker/bootstrap-timepicker.min.css" />
+			<add-attribute value="/resources/uplon/assets/plugins/mjolnic-bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" />
+			<add-attribute value="/resources/uplon/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" />
+			<add-attribute value="/resources/uplon/assets/plugins/clockpicker/bootstrap-clockpicker.min.css" />
+			<add-attribute value="/resources/uplon/assets/plugins/bootstrap-daterangepicker/daterangepicker.css" />
+			<add-attribute value="/resources/uplon/assets/plugins/fileuploads/css/dropify.min.css" />
+			<add-attribute value="/resources/uplon/assets/plugins/switchery/switchery.min.css" />
+			<add-attribute value="/resources/uplon/assets/css/bootstrap.min.css" />
+			<add-attribute value="/resources/uplon/assets/css/style.css" />
+			<add-attribute value="/resources/uplon/assets/plugins/jquery-ui-1.12.1/css/jquery-ui.css" />
+		</put-list-attribute>
+		<put-list-attribute name="javascripts">
+			<add-attribute value="/resources/uplon/assets/js/jquery.min.js"/>
+			<add-attribute value="/resources/uplon/assets/js/bootstrap.bundle.min.js"/>
+			<add-attribute value="/resources/uplon/assets/js/waves.js"/>
+			<add-attribute value="/resources/uplon/assets/js/jquery.nicescroll.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/switchery/switchery.min.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/fileuploads/js/dropify.min.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/moment/moment.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/timepicker/bootstrap-timepicker.min.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/mjolnic-bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/clockpicker/bootstrap-clockpicker.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"/>
+			<add-attribute value="/resources/uplon/assets/pages/jquery.form-pickers.init.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/datatables/jquery.dataTables.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/dataTables.bootstrap4.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/dataTables.buttons.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/buttons.bootstrap4.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/jszip.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/pdfmake.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/vfs_fonts.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/buttons.html5.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/buttons.print.min.js" />
+	       	<add-attribute value="/resources/uplon/assets/plugins/datatables/dataTables.responsive.min.js" />
+	        <add-attribute value="/resources/uplon/assets/plugins/datatables/responsive.bootstrap4.min.js" />
+	        <add-attribute value="/resources/uplon/assets/plugins/bootstrap-sweetalert/sweet-alert.min.js"/>
+			<add-attribute value="/resources/uplon/assets/pages/jquery.sweet-alert.init.js"/>
+			<add-attribute value="/resources/js/users.js" />
+			<add-attribute value="/resources/uplon/assets/js/jquery.core.js"/>
+			<add-attribute value="/resources/uplon/assets/js/jquery.app.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/jquery-ui-1.12.1/jquery-ui.min.js" />
+		</put-list-attribute>
+	</definition>
+	
+	<definition name="common-uplon-clean" template="/WEB-INF/layout/uplon/classic-clear.jsp">
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="/resources/uplon/assets/plugins/switchery/switchery.min.css" />
+			<add-attribute value="/resources/uplon/assets/css/bootstrap.min.css" />
+			<add-attribute value="/resources/uplon/assets/css/style.css" />
+			<add-attribute value="/resources/uplon/assets/js/modernizr.min.js" />
+		</put-list-attribute>
+		<put-list-attribute name="javascripts">
+			<add-attribute value="/resources/uplon/assets/js/jquery.min.js"/>
+			<add-attribute value="/resources/uplon/assets/js/bootstrap.bundle.min.js"/>
+			<add-attribute value="/resources/uplon/assets/js/waves.js"/>
+			<add-attribute value="/resources/uplon/assets/js/jquery.nicescroll.js"/>
+			<add-attribute value="/resources/uplon/assets/plugins/switchery/switchery.min.js"/>
+			<add-attribute value="/resources/uplon/assets/js/bootstrap.min.js"/>
+			<add-attribute value="/resources/uplon/assets/js/popper.min.js"/>
+			<add-attribute value="/resources/uplon/assets/js/jquery.core.js"/>
+			<add-attribute value="/resources/uplon/assets/js/jquery.app.js"/>
+		</put-list-attribute>
+	</definition>
+	
+	<definition name="home" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/home.jsp" />
+	</definition>
+	
+	<definition name="sgi" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/sgi.jsp" />
+	</definition>
+	
+	<definition name="auditoria" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/auditoria.jsp" />
+	</definition>
+	
+	<definition name="acidentes" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/acidentes.jsp" />
+	</definition>
+	
+	<definition name="notas" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/notas.jsp" />
+	</definition>
+	
+	<definition name="manutencao" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/manutencao.jsp" />
+	</definition>
+	
+	<definition name="uploadarquivos" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/uploadarquivos.jsp" />
+	</definition>
+	
+		<definition name="informe" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/informe.jsp" />
+	</definition>
+	
+	<definition name="formulario" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/formulario.jsp" />
+	</definition>
+	
+	<definition name="login" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/login.jsp" />
+	</definition>
+	
+	<definition name="error-400" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/error-400.jsp" />
+	</definition>
+	
+	<definition name="error-403" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/error-403.jsp" />
+	</definition>
+	
+	<definition name="error-404" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/error-404.jsp" />
+	</definition>
+	
+	<definition name="user-register" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/user-register.jsp" />
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="/resources/uplon/assets/plugins/select2/css/select2.min.css" />
+		</put-list-attribute>
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="/resources/uplon/assets/plugins/select2/js/select2.full.min.js" />
+		</put-list-attribute>
+	</definition>
+	
+	<definition name="users" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/users.jsp" />
+	</definition>
+	
+	<definition name="user-password-recovery" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/user-password-recovery.jsp" />
+	</definition>
+	
+	<definition name="user-has-token" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/user-has-token.jsp" />
+	</definition>
+	
+			<definition name="escolha" extends="common-uplon-clean">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/escolha.jsp" />
+	</definition>
+	
+	<definition name="user-detail" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/user-detail.jsp" />
+	</definition>
+	
+	<definition name="logs" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/logs.jsp" />
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="/resources/uplon/assets/plugins/select2/css/select2.min.css" />
+		</put-list-attribute>
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="/resources/uplon/assets/plugins/select2/js/select2.full.min.js" />
+		</put-list-attribute>
+	</definition>
+	
+	<definition name="roles" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/roles.jsp" />
+	</definition>
+	
+	<definition name="role-register" extends="common-uplon">
+		<put-attribute name="body" value="/WEB-INF/jsp/uplon/admin/role-register.jsp" />
+	</definition>
+	
+</tiles-definitions>
