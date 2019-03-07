@@ -66,18 +66,7 @@ public class InitDbService {
 
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
-		User kaique = new User();
-		kaique.setName("Kaique Arantes Costa");
-		kaique.setDtCadastro(Calendar.getInstance());
-		kaique.setIdLegal("04015926188");
-		kaique.setEmail("kaiquearantes@hotmail.com");
-		kaique.setEnabled(true);
-		kaique.setFirstTimeLogin(true);
-		kaique.setPassword(encoder.encode("1234"));
-		kaique.setRoles(rolesAdmin);
-
-		userRepository.save(kaique);
-
+		
 		User rubens = new User();
 		rubens.setName("Rubens Alves de Freitas Neto");
 		rubens.setDtCadastro(Calendar.getInstance());
