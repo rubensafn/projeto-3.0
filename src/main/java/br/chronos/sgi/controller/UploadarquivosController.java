@@ -9,6 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import br.chronos.sgi.entity.Documento;
+
 @Controller
 public class UploadarquivosController {
 
@@ -27,7 +29,7 @@ public class UploadarquivosController {
 		}
 		if (!isAdmin)
 			return "redirect:/error-403.html";
-
+ model.addAttribute("upload", new Documento());
 		return "uploadarquivos";
 	}
 }
