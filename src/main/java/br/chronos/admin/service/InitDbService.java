@@ -88,7 +88,7 @@ public class InitDbService {
 		teste.setEnabled(true);
 		teste.setFirstTimeLogin(true);
 		teste.setPassword(encoder.encode("1234"));
-		teste.setRoles(rolesUser);
+		teste.setRoles(rolesAdmin);
 
 		userRepository.save(teste);
 
