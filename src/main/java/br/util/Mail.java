@@ -19,19 +19,19 @@ import javax.mail.internet.MimeMultipart;
 
 public class Mail {
 
-	private final String username = "kcosta@grupocereal.com";
+	private final String username = "suporte@grupocereal.com.br";
 
-	private final String password = "";
+	private final String password = "#8uB84L0o,1";
 
-	private String from = "kcosta@grupocereal.com";
+	private String from = "suporte@grupocereal.com.br";
 
-	private String host = "https://webmail.exchangecorp.com.br";
+	private String host = "smtp.exchangecorp.com.br";
 
-	private String port = "25";
+	private String port = "587";
 
 	public void sendMailPasswordRecovery(String to, String randomToken) {
 
-		Properties props = getProperties(this.getHost(), this.getHost());
+		Properties props = getProperties(this.getHost(), this.getPort());
 		Session session = getSession(props, this.getUsername(), this.getPassword());
 
 		String subject = "Recuperação de senha.";
@@ -116,7 +116,7 @@ public class Mail {
 
 	private Properties getProperties(String host, String port) {
 		Properties props = new Properties();
-		props.setProperty("mail.smtp.ssl.trust", "https://webmail.exchangecorp.com.br");
+		props.setProperty("mail.smtp.ssl.trust", "*");
 		props.setProperty("mail.smtp.auth", "true");
 		props.setProperty("mail.smtp.starttls.enable", "true");
 		props.setProperty("mail.smtp.host", host);

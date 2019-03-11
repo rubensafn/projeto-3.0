@@ -6,6 +6,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib uri="http://www.springframework.org/security/tags"
 	prefix="security"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+
+
 
 <div class="wrapper">
 	<div class="container">
@@ -13,10 +16,11 @@
 
 			<div class="col-sm-12">
 				<br> <br>
-				<form:form>
+
+				<form:form action="uploadarquivos.html" method="post">
 					<div class="row">
 						<div class="col-sm-12">
-							<h4 class="page-title" style="color: #fff;">Upload de
+							<h4 class="page-title" style="color: #06104B">Upload de
 								Arquivos - SGI</h4>
 							<!-- 					<p class="text-muted font-13 m-b-10">Favor inserir no -->
 							<!-- 					campo abaixo, data referente ao arquivo que deseja realizar -->
@@ -28,15 +32,19 @@
 							<div class="card-box">
 
 								<div class="form-group">
-								<div class="col-12">
-									<label>Data referência arquivo:</label>
-									<div>
-										<div class="date">
-											<input type="date" id="dataCarregamento"
-												name="dataCarregamento" class="form-control" />
-										</div>
-										<!-- input-group -->
-									</div>
+									<div class="col-12">
+										<label>Data referência arquivo:</label>
+										<!-- 									<div> -->
+										<!-- 										<div class="date"> -->
+										<!-- 											<input type="date" id="dataCarregamento" -->
+										<!-- 												name="dataCarregamento" class="form-control" required="required" /> -->
+										<!-- 										</div> -->
+										<!-- 										input-group -->
+										<!-- 									</div> -->
+										<input type="date" id="dataCarregamento"
+											name="dataCarregamento" class="form-control"
+											required="required" />
+
 									</div>
 								</div>
 
@@ -56,26 +64,24 @@
 								<!-- 								<h4 class="header-title m-t-0 m-b-30">Upload de Arquivos - SGI</h4> -->
 								<label>Inserir arquivo:</label> <input type="file"
 									class="dropify" data-max-file-size="1M" required="required" />
-								<br> <br>
+								<br> <br> <br>
 								<div align="center">
 									<button type="submit"
 										class="btn btn-primary waves effect waves-light"
-										id="sa-success-upload">
+									>
 										Confirmar Upload <i class="fa fa-cloud-upload"
-											style="color: #129bb4;"></i>
+											style="color: #FEBF0F;"></i>
 									</button>
-									<br>
-									<br>
+
+									<br> <br>
 								</div>
 							</div>
 						</div>
-						<!-- end col -->
 
 					</div>
 			</div>
 			</form:form>
-			<!-- 				</div> -->
-			<!-- end col -->
+
 		</div>
 		<!-- end row -->
 
@@ -87,5 +93,3 @@
 </div>
 
 </div>
-
-
