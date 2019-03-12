@@ -142,39 +142,6 @@
 					<!-- 								</ul> -->
 					<!-- 						</ul></li> -->
 
-					<li class="has-submenu"><a href="#"><i
-							class="fa fa-eercast fa fa-eercast-assignment"></i> <span>
-								Itss Agro </span> </a>
-						<ul class="submenu megamenu">
-							<li>
-								<ul>
-									<li><a target="_blank"
-										href="http://192.168.202.10:8181/itss-agro/" />Acreúna</a></li>
-									<li><a target="_blank"
-										href="http://192.168.206.10:8181/itss-agro/">Caiapônia</a></li>
-									<li><a target="_blank"
-										href="http://192.168.200.188:8181/itss-agro/">Matriz</a></li>
-									<li><a target="_blank"
-										href="http://192.168.212.10:8181/itss-agro/" />Edéia</a></li>
-									<li><a target="_blank"
-										href="http://192.168.203.10:8181/itss-agro/" />Montividiu</a></li>
-									<li><a target="_blank"
-										href="http://192.168.204.10:8181/itss-agro/" />Palmeiras</a></li>
-									<li><a target="_blank"
-										href="http://192.168.205.10:8181/itss-agro/" />Ponte Pedra</a></li>
-									<li><a target="_blank"
-										href="http://192.168.207.10:8181/itss-agro/" />Rio Preto</a></li>
-									<li><a target="_blank"
-										href="http://192.168.208.10:8181/itss-agro/" />Rio Verde II</a></li>
-								</ul>
-							</li>
-						</ul></li>
-
-
-					<li class="has-submenu"><a target="_blank"
-						href="http://192.168.200.202:9191/user" /><i
-						class="ion-clipboard ion-clipboard-assignment"></i> <span>
-							Papercut </span> </a></li>
 
 					<li class="has-submenu"><a href="#"><i
 							class="ion-help-buoy ion-help-buoy-assignment"></i> <span>
@@ -205,20 +172,8 @@
 							</li>
 						</ul></li>
 
-
 					<li class="has-submenu"><a href="#"><i
-							class="ion-filing ion-filing-assignment"></i> <span> RH </span> </a>
-						<ul class="submenu megamenu">
-							<li>
-								<ul>
-									<li><a target="_blank"
-										href="http://192.168.200.118/forponto/fptoweb.exe" />Forponto</a></li>
-									<li><a target="_blank"
-										href="http://portalrh.grupocereal.com.br/grupocereal/Produtos/SAAA/Principal2.aspx?amb_selecionado=0&abrir_nova_janela=N&eh_mdesigner=N&nome_portal=736B30326377694444656E41457961775951587545513D3D" />Portal
-										RH</a></li>
-								</ul>
-							</li>
-						</ul></li>
+							class="ion-filing ion-filing-assignment"></i> <span> RH </span> </a></li>
 
 
 
@@ -228,9 +183,9 @@
 							<li>
 								<ul>
 									<li><a target="_blank"
-										href="https://webmail.exchangecorp.com.br/owa" />Webmail</a></li>
+										href="https://outlook.live.com/" />Webmail</a></li>
 									<li><a target="_blank"
-										href="https://mail.grupocereal.com.br/#1" />Webmail Interno</a></li>
+										href="https://outlook.live.com/" />Webmail Interno</a></li>
 								</ul>
 							</li>
 						</ul></li>

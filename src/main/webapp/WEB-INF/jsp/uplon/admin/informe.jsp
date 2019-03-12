@@ -16,7 +16,7 @@
 					<table class="table table-striped mb-0">
 						<thead>
 							<tr>
-								<th style="min-width: 70%">Informe Cereal</th>
+								<th style="min-width: 70%">Informe</th>
 								<th style="width: 30%">Baixar</th>
 							</tr>
 						</thead>
@@ -28,8 +28,7 @@
 								<br> <br>
 
 								<tr>
-									<td class="align-middle">Grupo Cereal - ANO VI - Nº 25 -
-										Março 2018</td>
+									<td class="align-middle">Informe Empresa - 2019</td>
 									<td>
 										<!-- 									<a target="_blank" --> <!-- 										href="https://drive.google.com/file/d/1Fn-BKJvMYLumVCMHkfFYlNSguPCIsu7O/view" -->
 										<!-- 										class="btn btn-custom waves-effect"> <i --> <!-- 											class="zmdi zmdi-download"></i></a></td> -->
@@ -75,7 +74,7 @@
 				<button type="button" class="btn btn-secondary" data-dismiss="modal"
 					id="fecharModal">Cancelar</button>
 				<a href="#"
-					onclick="window.open('https://drive.google.com/file/d/1Fn-BKJvMYLumVCMHkfFYlNSguPCIsu7O/view', '_blank');">
+					onclick="window.open('https://drive.google.com/open?id=1f390vjwclxNzbZFQ_9NRTSVnt1twr1lV', '_blank');">
 					<button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
 				</a>
 			</div>

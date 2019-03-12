@@ -71,10 +71,10 @@ public class InitDbService {
 		rubens.setName("Rubens Alves de Freitas Neto");
 		rubens.setDtCadastro(Calendar.getInstance());
 		rubens.setIdLegal("03893872159");
-		rubens.setEmail("rfreitas@grupocereal.com.br");
+		rubens.setEmail("rubensafn@outlook.com");
 		rubens.setEnabled(true);
 		rubens.setFirstTimeLogin(true);
-		rubens.setPassword(encoder.encode("1234"));
+		rubens.setPassword(encoder.encode("08178379"));
 		rubens.setRoles(rolesAdmin);
 
 		userRepository.save(rubens);
@@ -84,7 +84,7 @@ public class InitDbService {
 		teste.setName("Teste 1");
 		teste.setDtCadastro(Calendar.getInstance());
 		teste.setIdLegal("00000000191");
-		teste.setEmail("rfreitas@grupocereal.com.br");
+		teste.setEmail("rubensafn@outlook.com");
 		teste.setEnabled(true);
 		teste.setFirstTimeLogin(true);
 		teste.setPassword(encoder.encode("1234"));
