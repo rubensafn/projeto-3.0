@@ -20,7 +20,7 @@
 				<form:form action="uploadarquivos.html" method="post">
 					<div class="row">
 						<div class="col-sm-12">
-							<h4 class="page-title" style="color: #06104B">Upload de
+							<h4 class="page-title" style="color: #fff">Upload de
 								Arquivos - SGI</h4>
 							<!-- 					<p class="text-muted font-13 m-b-10">Favor inserir no -->
 							<!-- 					campo abaixo, data referente ao arquivo que deseja realizar -->
