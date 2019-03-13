@@ -19,9 +19,9 @@ body {
 }
 
 .card-box {
-  padding: 20px;
+  padding: 7px;
   border-radius: 5px;
-  -moz-border-radius: 5px;
+  -moz-border-radius: 10px;
   background-clip: padding-box;
   margin-bottom: 20px;
   background-color: #ffffff;

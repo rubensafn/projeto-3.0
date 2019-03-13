@@ -145,18 +145,19 @@
 
 					<li class="has-submenu"><a href="#"><i
 							class="ion-help-buoy ion-help-buoy-assignment"></i> <span>
-								Brainiac </span> </a>
-						<ul class="submenu megamenu">
-							<li>
-								<ul>
-									<li><a target="_blank"
-										href="http://192.168.200.239/Login.aspx" />Ir para chamados</a></li>
-									<li><a
-										href="\\192.168.200.104\Publica\TI\Rubens\Abertura de chamado - Gestão X - SD.mp4" />Baixar
-										vídeo instrutivo</a></li>
-								</ul>
-							</li>
-						</ul></li>
+								Glpi </span> </a>
+<!-- 						<ul class="submenu megamenu"> -->
+<!-- 							<li> -->
+<!-- 								<ul> -->
+<!-- 									<li><a target="_blank" -->
+<!-- 										href="http://192.168.200.239/Login.aspx" />Ir para chamados</a></li> -->
+<!-- 									<li><a -->
+<!-- 										href="\\192.168.200.104\Publica\TI\Rubens\Abertura de chamado - Gestão X - SD.mp4" />Baixar -->
+<!-- 										vídeo instrutivo</a></li> -->
+<!-- 								</ul> -->
+<!-- 							</li> -->
+<!-- 						</ul> -->
+<!-- 						</li> -->
 
 					<li class="has-submenu"><a href="#"><i
 							class="ion-locked ion-locked-assignment"></i> <span>
