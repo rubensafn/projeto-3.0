@@ -17,8 +17,8 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 
 <link rel="shortcut icon"
-	href="${pageContext.request.contextPath}/resources/images/LOGOJOACIR.png">
-<title>WorkPlan</title>
+	href="${pageContext.request.contextPath}/resources/images/logocloud.jpg">
+<title>InterWorks</title>
 
 <c:forEach var="css" items="${stylesheets}">
 	<link href="<c:url value="${css}"/>" rel="stylesheet">

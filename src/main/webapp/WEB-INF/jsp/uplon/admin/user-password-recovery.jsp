@@ -14,8 +14,8 @@
 		<div class="card-box mb-0">
 			<div class="text-center m-t-20">
 				<a href="index.html" class="logo"> <img alt="Logo"
-					src="/resources/images/LOGOJOACIR.png"
-					style="width: 300px; height: 200px;">
+						src="/resources/images/interworks_logo.png"
+					style="width: 325px; height: 75px;">
 				</a>
 			</div>
 			<div class="m-t-10 p-20">

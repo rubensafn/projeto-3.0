@@ -15,8 +15,8 @@
 	content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
 <meta name="author" content="Grupo Cereal">
 
-<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/LOGOJOACIR.png">
-<title>WorkPlan</title>
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/logocloud.jpg">
+<title>InterWorks</title>
 
 <c:forEach var="css" items="${stylesheets}">
 	<link href="<c:url value="${css}"/>" rel="stylesheet">

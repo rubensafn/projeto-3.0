@@ -22,9 +22,9 @@
 			<div class="topbar-left">
 				<a href='<spring:url value="/home.html"/>' class="logo"> <img
 					alt="Logo"
-					src="${pageContext.request.contextPath}/resources/images/LOGOJOACIR.png"
-					style="width: 150px; height: 100px;"'> &nbsp; <span
-					style="margin-top: 100px; margin-bottom: 45px; vertical-align: middle;">WORKPLAN
+					src="${pageContext.request.contextPath}/resources/images/logocloud.jpg"
+					style="width: 115px; height: 115px;"'> &nbsp; <span
+					style="margin-top: 100px; margin-bottom: 45px; vertical-align: middle;">InterWorks
 				</span>
 				</a>
 			</div>
