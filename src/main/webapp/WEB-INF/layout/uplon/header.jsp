@@ -19,11 +19,11 @@
 	<div class="topbar-main">
 		<div class="container">
 			<!-- LOGO -->
-<!-- 			<div class="topbar-left"> -->
+			<div class="topbar-left">
 				<a href='<spring:url value="/home.html"/>' class="logo"> <img
 					alt="Logo"
 					src="${pageContext.request.contextPath}/resources/images/logocloud.jpg"
-					style="width: 75px; height: 75px;"> &nbsp; <span
+					style="width: 80px; height: 80x;"'> &nbsp; <span
 					style="margin-top: 100px; margin-bottom: 45px; vertical-align: middle;">InterWorks
 				</span>
 				</a>
@@ -43,7 +43,8 @@
 								Admin</span>
 						</a>
 					</security:authorize>
-
+ 
+ 
 					<li class="list-inline-item"><a class="navbar-toggle">
 							<div class="lines">
 								<span></span> <span></span> <span></span>
@@ -142,22 +143,14 @@
 					<!-- 								</ul> -->
 					<!-- 						</ul></li> -->
 
+	
 
-					<li class="has-submenu"><a href="#"><i
+
+				
+
+					<li class="has-submenu"><a target="_blank" href="https://demo.glpi-project.org/"><i
 							class="ion-help-buoy ion-help-buoy-assignment"></i> <span>
-								Glpi </span> </a>
-<!-- 						<ul class="submenu megamenu"> -->
-<!-- 							<li> -->
-<!-- 								<ul> -->
-<!-- 									<li><a target="_blank" -->
-<!-- 										href="http://192.168.200.239/Login.aspx" />Ir para chamados</a></li> -->
-<!-- 									<li><a -->
-<!-- 										href="\\192.168.200.104\Publica\TI\Rubens\Abertura de chamado - Gestão X - SD.mp4" />Baixar -->
-<!-- 										vídeo instrutivo</a></li> -->
-<!-- 								</ul> -->
-<!-- 							</li> -->
-<!-- 						</ul> -->
-<!-- 						</li> -->
+								HelpDesk </span> </a></li>
 
 					<li class="has-submenu"><a href="#"><i
 							class="ion-locked ion-locked-assignment"></i> <span>
@@ -173,8 +166,10 @@
 							</li>
 						</ul></li>
 
+
 					<li class="has-submenu"><a href="#"><i
-							class="ion-filing ion-filing-assignment"></i> <span> RH </span> </a></li>
+							class="ion-filing ion-filing-assignment"></i> <span> RH </span> </a>
+						</li>
 
 
 
