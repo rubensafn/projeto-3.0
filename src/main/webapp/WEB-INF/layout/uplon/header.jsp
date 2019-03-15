@@ -19,11 +19,11 @@
 	<div class="topbar-main">
 		<div class="container">
 			<!-- LOGO -->
-			<div class="topbar-left">
+<!-- 			<div class="topbar-left"> -->
 				<a href='<spring:url value="/home.html"/>' class="logo"> <img
 					alt="Logo"
 					src="${pageContext.request.contextPath}/resources/images/logocloud.jpg"
-					style="width: 115px; height: 115px;"'> &nbsp; <span
+					style="width: 75px; height: 75px;"> &nbsp; <span
 					style="margin-top: 100px; margin-bottom: 45px; vertical-align: middle;">InterWorks
 				</span>
 				</a>
