@@ -81,10 +81,10 @@ public class InitDbService {
 		
 		
 		User teste = new User();
-		teste.setName("Teste 1");
+		teste.setName("João Pedro");
 		teste.setDtCadastro(Calendar.getInstance());
-		teste.setIdLegal("00000000191");
-		teste.setEmail("rubensafn@outlook.com");
+		teste.setIdLegal("04225434117");
+		teste.setEmail("joaopedroswt@gmail.com");
 		teste.setEnabled(true);
 		teste.setFirstTimeLogin(true);
 		teste.setPassword(encoder.encode("1234"));
