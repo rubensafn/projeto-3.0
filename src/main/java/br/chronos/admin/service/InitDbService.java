@@ -80,16 +80,28 @@ public class InitDbService {
 		userRepository.save(rubens);
 		
 		User teste = new User();
-		teste.setName("João Pedro");
+		teste.setName("Teste");
 		teste.setDtCadastro(Calendar.getInstance());
-		teste.setIdLegal("04225434117");
-		teste.setEmail("joaopedroswt@gmail.com");
+		teste.setIdLegal("00000000191");
+		teste.setEmail("rubensafnrv@gmail.com");
 		teste.setEnabled(true);
 		teste.setFirstTimeLogin(true);
 		teste.setPassword(encoder.encode("1234"));
 		teste.setRoles(rolesAdmin);
 
 		userRepository.save(teste);
+		
+		User jp = new User();
+		jp.setName("João Pedro");
+		jp.setDtCadastro(Calendar.getInstance());
+		jp.setIdLegal("04225434117");
+		jp.setEmail("joaopedroswt@gmail.com");
+		jp.setEnabled(true);
+		jp.setFirstTimeLogin(true);
+		jp.setPassword(encoder.encode("123456"));
+		jp.setRoles(rolesAdmin);
+
+		userRepository.save(jp);
 		
 		
 
