@@ -79,7 +79,6 @@ public class InitDbService {
 
 		userRepository.save(rubens);
 		
-		
 		User teste = new User();
 		teste.setName("João Pedro");
 		teste.setDtCadastro(Calendar.getInstance());
@@ -91,6 +90,8 @@ public class InitDbService {
 		teste.setRoles(rolesAdmin);
 
 		userRepository.save(teste);
+		
+		
 
 	}
 
