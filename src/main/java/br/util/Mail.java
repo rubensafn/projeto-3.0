@@ -32,6 +32,7 @@ public class Mail {
 
 	public void sendMailPasswordRecovery(String to, String randomToken) {
 
+		
 		Properties props = getProperties(this.getHost(), this.getPort());
 		Session session = getSession(props, this.getUsername(), this.getPassword());
 
